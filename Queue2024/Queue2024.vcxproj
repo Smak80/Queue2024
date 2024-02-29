@@ -133,6 +133,9 @@
   <ItemGroup>
     <ClInclude Include="queue.h" />
   </ItemGroup>
+  <ItemGroup>
+    <Text Include="persons.txt" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
