@@ -26,3 +26,15 @@ bool dequeue(queue& q, char*& name, int& age)
 	delete del;
 	return true;
 }
+
+void clear(queue& q)
+{
+	queue_elem* curr = q.first;
+	while(curr)
+	{
+		const auto* del = curr;
+		curr = curr->next;
+		delete del;
+	}
+	q.first = q.last = nullptr;
+}
