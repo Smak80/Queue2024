@@ -16,6 +16,8 @@ void show_queue_data(queue q)
 
 void main()
 {
+	setlocale(LC_ALL, "");
+
 	queue trud;
 	queue ne_trud;
 
